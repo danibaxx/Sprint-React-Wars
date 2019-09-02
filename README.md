@@ -47,7 +47,6 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
-
 - [ ] Create a forked copy of this project.
 - [ ] Add TL as collaborator on Github.
 - [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
