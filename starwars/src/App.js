@@ -3,7 +3,14 @@ import axios from 'axios';
 
 import Character from './components/Character';
 
+import styled from 'styled-components';
 import './App.css';
+
+const CustomH1 = styled.h1`
+  font-size: 45px;
+  border-bottom: 2px solid grey;
+  margin-top: 50px;
+`;
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -28,7 +35,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">React Wars</h1>
+      <CustomH1 className="Header">React Wars</CustomH1>
       <div className="characters">
         {data.map(data => (
           <Character 
